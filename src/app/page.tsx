@@ -87,7 +87,7 @@ export default function Home() {
 
               {/* Feature List */}
               <ul className="space-y-4 lg:mb-[30px] text-base font-normal lg:font-semibold">
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <span className="mr-3 flex-shrink-0">
                     <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
                   </span>
@@ -95,7 +95,7 @@ export default function Home() {
                     Start growing your influence right away—no waiting required!
                   </span>
                 </li>
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <span className="mr-3 flex-shrink-0">
                     <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
                   </span>
@@ -103,13 +103,13 @@ export default function Home() {
                     Create viral TikToks and Reels step by step with easy-to-follow lessons
                   </span>
                 </li>
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <span className="mr-3 flex-shrink-0">
                     <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
                   </span>
                   <span className="text-white">Use a Personal AI Worker to boost your content</span>
                 </li>
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <span className="mr-3 flex-shrink-0">
                     <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
                   </span>
