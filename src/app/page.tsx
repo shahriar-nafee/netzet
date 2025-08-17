@@ -162,7 +162,7 @@ export default function Home() {
 
             {/* Right Side - Phone Mockup */}
             <div className="xl:absolute left-[673px] top-[80px] order-first 2xl:order-last">
-              <div className="w-[360px] h-[370px] xl:w-[666px] xl:h-[679px] mx-auto">
+              <div className="xl:w-[666px] xl:h-[679px] mx-auto">
                 <Image
                   src={localImageLinks.MobileImage}
                   alt="Mobile Image"
