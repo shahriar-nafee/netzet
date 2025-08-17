@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Urbanist, Figtree, Nunito } from "next/font/google"
 import "./globals.css"
+import Banner from "./components/layout/Banner"
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${urbanist.variable} ${figtree.variable} ${nunito.variable} bg-[var(--background)]`}
       >
+        <Banner />
         {children}
       </body>
     </html>

@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         urbanist: ["var(--font-urbanist)"],
         figtree: ["var(--font-figtree)"],
+        nunito: ["var(--font-nunito)"],
       },
     },
   },

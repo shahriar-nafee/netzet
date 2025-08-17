@@ -3,21 +3,12 @@ import { localImageLinks } from "./lib/assets"
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full">
-      {/* Top Banner */}
-      <div className="w-full relative bg-linear-to-r/srgb from-[#FC004E] to-[#10CBE0] sm:h-[76px] lg:h-[46px] flex items-center justify-center">
-        <div className="text-white font-semibold sm:text-[16px] lg:text-[22px] text-center">
-          <span>🚀</span>{" "}
-          <span className="text-[#00E7F9] font-extrabold">FRESH BEGINNINGS SALE: &nbsp;</span>
-          <span>Extra 25% OFF, Limited Spots - start your journey today!</span>
-        </div>
-      </div>
-
+    <div className="">
       {/* Main Container */}
       <div className="2xl:w-[1440px] mx-auto xl:relative">
         <div className="px-5 lg:pl-[215px] lg:pr-[211px]">
           {/* Header */}
-          <header className="flex justify-center items-center lg:items-start lg:justify-between pt-[35px]">
+          <header className="flex justify-center items-center lg:items-start lg:justify-between pt-[16px] lg:pt-[35px]">
             <div>
               <Image
                 src={localImageLinks.BrandImage}
@@ -27,7 +18,7 @@ export default function Home() {
                 className="w-[105px] h-[45px] lg:w-[173px] lg:h-[74px]"
               />
             </div>
-            <nav className="lg:flex space-x-10 hidden z-10">
+            <nav className="lg:flex space-x-10 hidden z-10 font-semibold">
               <a href="#" className="text-[#A9A9A9] text-lg">
                 About us
               </a>
@@ -75,18 +66,18 @@ export default function Home() {
           </header>
 
           {/* Main Content */}
-          <div className="mt-[57px] flex flex-col 2xl:flex-row lg:mb-20">
+          <div className="mt-4 lg:mt-[57px] flex flex-col 2xl:flex-row lg:mb-20">
             {/* Left Side Content */}
             <div className="mb-12 lg:mb-0 lg:w-[516px] text-white z-100 order-last 2xl:order-first">
-              <h1 className="font-urbanist text-center lg:text-left text-[25px] lg:text-[35px] font-bold leading-tight">
+              <h1 className="font-urbanist text-center lg:text-left text-[25px] lg:text-[35px] font-extrabold lg:font-bold leading-tight">
                 Want to Turn Social Media Into a Profitable Career?
               </h1>
-              <h2 className="font-urbanist text-center lg:text-left text-[25px] lg:text-[35px] font-bold mb-8 text-[#00E7F9] drop-shadow-[0_4px_2px_#FC004E]">
+              <h2 className="font-urbanist text-center lg:text-left text-[25px] lg:text-[35px] font-extrabold lg:font-bold mb-[22px] lg:mb-4 text-[#00E7F9] drop-shadow-[0_4px_2px_#FC004E]">
                 Discover your way to success with Fametonic:
               </h2>
 
               {/* Feature List */}
-              <ul className="space-y-4 lg:mb-[30px] text-base font-normal lg:font-semibold">
+              <ul className="space-y-3 lg:mb-[30px] text-base font-normal lg:font-semibold">
                 <li className="flex items-center">
                   <span className="mr-3 flex-shrink-0">
                     <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
@@ -123,7 +114,7 @@ export default function Home() {
               <div className="flex flex-col">
                 <div className="lg:w-[313px] order-last lg:order-first mt-8 lg:mt-0">
                   <div className="flex flex-col items-center gap-[10px]">
-                    <button className="w-full flex items-center justify-center text-white font-bold text-xl bg-[#FC004E] py-2 rounded-xl drop-shadow-[2px_2px_4px_#00E7F9]">
+                    <button className="w-full flex items-center justify-center text-white font-bold text-xl bg-[#FC004E] py-3 rounded-xl drop-shadow-[2px_2px_4px_#00E7F9]">
                       <span className="mr-3">GET STARTED</span>{" "}
                       <span>
                         <svg
@@ -147,13 +138,13 @@ export default function Home() {
 
                 {/* Footer Text */}
                 <div className="text-xs text-[#ABABAB] mt-[22px] lg:mt-[30px] order-first lg:order-last">
-                  <div className="text-center lg:text-left">
+                  <div className="text-center font-medium lg:text-left">
                     <span>By clicking &quot;Get Started&quot;, you agree with </span>
                     <span className="cursor-pointer">Terms and Conditions</span>,{" "}
                     <span className="cursor-pointer">Privacy Policy</span>,{" "}
                     <span className="cursor-pointer">Subscription Terms</span>
                   </div>
-                  <p className="font-nunito font-medium text-[10px] text-center lg:text-left mt-4">
+                  <p className="font-medium text-[10px] text-center lg:text-left mt-[25px] lg:mt-3 font-nunito">
                     Fametonic 2025 ©All Rights Reserved.
                   </p>
                 </div>
