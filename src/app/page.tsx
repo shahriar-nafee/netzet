@@ -14,38 +14,40 @@ export default function Home() {
         </h2>
 
         {/* Feature List */}
-        <ul className="space-y-3 lg:mb-[30px] text-base font-normal lg:font-semibold">
-          <li className="flex items-center">
-            <span className="mr-3 flex-shrink-0">
-              <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
-            </span>
-            <span className="text-white">
-              Start growing your influence right away—no waiting required!
-            </span>
-          </li>
-          <li className="flex items-center">
-            <span className="mr-3 flex-shrink-0">
-              <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
-            </span>
-            <span className="text-white">
-              Create viral TikToks and Reels step by step with easy-to-follow lessons
-            </span>
-          </li>
-          <li className="flex items-center">
-            <span className="mr-3 flex-shrink-0">
-              <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
-            </span>
-            <span className="text-white">Use a Personal AI Worker to boost your content</span>
-          </li>
-          <li className="flex items-center">
-            <span className="mr-3 flex-shrink-0">
-              <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
-            </span>
-            <span className="text-white">
-              Learn from expert-led courses designed for aspiring influencers
-            </span>
-          </li>
-        </ul>
+        <div className="flex flex-col items-center">
+          <ul className="space-y-3 lg:mb-[30px] text-base font-normal lg:font-semibold">
+            <li className="flex items-center">
+              <span className="mr-3 flex-shrink-0">
+                <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
+              </span>
+              <span className="text-white">
+                Start growing your influence right away—no waiting required!
+              </span>
+            </li>
+            <li className="flex items-center">
+              <span className="mr-3 flex-shrink-0">
+                <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
+              </span>
+              <span className="text-white">
+                Create viral TikToks and Reels step by step with easy-to-follow lessons
+              </span>
+            </li>
+            <li className="flex items-center">
+              <span className="mr-3 flex-shrink-0">
+                <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
+              </span>
+              <span className="text-white">Use a Personal AI Worker to boost your content</span>
+            </li>
+            <li className="flex items-center">
+              <span className="mr-3 flex-shrink-0">
+                <Image src={localImageLinks.starIcon} alt="Star Icon" width={22} height={22} />
+              </span>
+              <span className="text-white">
+                Learn from expert-led courses designed for aspiring influencers
+              </span>
+            </li>
+          </ul>
+        </div>
 
         {/* Button */}
         <div className="flex flex-col">
@@ -90,7 +92,7 @@ export default function Home() {
 
       {/* Right Side - Phone Mockup */}
       <div className="xl:absolute left-[673px] top-[80px] order-first 2xl:order-last">
-        <div className="xl:w-[666px] xl:h-[679px] mx-auto">
+        <div className="xl:max-w-[666px] xl:h-[679px] mx-auto">
           <Image src={localImageLinks.MobileImage} alt="Mobile Image" width={666} height={679} />
         </div>
       </div>
